@@ -11,7 +11,7 @@ import axios from "axios";
 */
 
 const api = axios.create({
-    baseURL: "http://localhost:8000/api/v1", // Backend URL (change this to your backend URL)
+    baseURL: "https://proactive-guacamole.ngrok-free.dev/api/v1", // Backend URL (change this to your backend URL)
     timeout: 60000,
     headers: {
         "Content-Type": "application/json",
