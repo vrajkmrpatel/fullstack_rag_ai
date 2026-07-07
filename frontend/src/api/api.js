@@ -11,12 +11,10 @@ import axios from "axios";
 */
 
 const api = axios.create({
-    baseURL: "https://proactive-grimy-guacamole.ngrok-free.dev/api/v1", // Backend URL (change this to your backend URL)
+    baseURL: "https://8b5ac2a214c4c8.lhr.life/api/v1", // Backend URL (change this to your backend URL)
     timeout: 60000,
     headers: {
         "Content-Type": "application/json",
-        // 2. Added this header to bypass Ngrok's security warning page
-        "ngrok-skip-browser-warning": "true",
     },
 });
 
