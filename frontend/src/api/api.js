@@ -11,7 +11,7 @@ import axios from "axios";
 */
 
 const api = axios.create({
-    baseURL: "https://8b5ac2a214c4c8.lhr.life/api/v1", // Backend URL (change this to your backend URL)
+    baseURL: "http://localhost:8000/api/v1", // Backend URL (change this to your backend URL)
     timeout: 60000,
     headers: {
         "Content-Type": "application/json",
