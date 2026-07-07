@@ -28,7 +28,7 @@ app.add_middleware(
     CORSMiddleware,
     # Ensure this matches your frontend URL (e.g., Vite defaults to 5173)
     # allow_origins=["http://localhost:5173", "http://127.0.0.1:5173"],
-    allow_origins=["*"],  # For development only; restrict in production
+    allow_origins=["https://fullstack-rag-ai.vercel.app/"],  # frontend URL for production deployment
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
